@@ -18,7 +18,7 @@ class TestBubblesSort(unittest.TestCase):
         
         self.assertEqual(result,data_test, 'неправильная сортировка')
         self.assertEqual(result2,data_test2, 'Проблемы с пустым списком')
-        self.assertEqual(result3,data_test3, 'Сортировка работает корректно')
+        self.assertEqual(result3,data_test3, 'Проблема с 0')
 
 if __name__ == '__main__':
     unittest.main()
