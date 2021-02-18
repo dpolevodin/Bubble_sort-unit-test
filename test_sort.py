@@ -13,8 +13,8 @@ class TestBubblesSort(unittest.TestCase):
         data_test2 = []
         result2 = bubbles_sort([])
         
-        data_test3 = [2,1]
-        result3 = bubbles_sort([2,1])
+        data_test3 = [0]
+        result3 = bubbles_sort([0])
         
         self.assertEqual(result,data_test, 'неправильная сортировка')
         self.assertEqual(result2,data_test2, 'Проблемы с пустым списком')
